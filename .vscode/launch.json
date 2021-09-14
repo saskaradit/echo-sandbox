@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch HTTP server",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "remotePath": "",
+      "host": "0.0.0.0",
+      "program": "${workspaceFolder}",
+      "args": [
+        "server"
+      ],
+      "showLog": true,
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
